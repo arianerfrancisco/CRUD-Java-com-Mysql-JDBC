@@ -28,7 +28,21 @@ public class ContatoDAO {
 			pstm.setString(1, contato.getNome());
 			pstm.setInt(2, contato.getIdade());
 			pstm.setDate(3, new Date(contato.getDataCadastro().getTime()));
+			
+			//executar a query
+			pstm.execute();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			//fechar as conexoes
+			try {
+				if(pstm!=null) {
+					pstm.close();
+				}
+				if(conn!=null) {
+					conn.close();
+				}
+			} catch (Exception e) 
 		}
-	}
-
+	} 
 }
