@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConecctionFactory {
+public class ConnectionFactory {
 	
 	private static final String USARNAME = "root";
 	
@@ -16,7 +16,7 @@ public class ConecctionFactory {
 	/*
 	 *  Conexão com o banco de dados
 	 */
-	private static final Connection createConnectionToMySQL() throws Exception  {
+	public static Connection createConnectionToMySQL() throws Exception  {
 	
 // faz com que a classe seja carregada pela JVM
 		Class.forName("com.mysql.jdbc.Driver");
@@ -29,7 +29,7 @@ public class ConecctionFactory {
 	
 // para garantir apenas uma conexão ativa por usuario
 	
-	private static void main(String[] args ) throws Exception  {
+	public  static void main(String[] args ) throws Exception  {
 		
 //Recuperar uma conexão com o banco de dados
 		Connection con =  createConnectionToMySQL();
