@@ -2,6 +2,7 @@ package br.com.agenda.factory;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class ConecctionFactory {
 	
@@ -28,13 +29,13 @@ public class ConecctionFactory {
 	
 // para garantir apenas uma conexão ativa por usuario
 	
-	private static void main(String[] args ) {
+	private static void main(String[] args ) throws Exception  {
 		
 //Recuperar uma conexão com o banco de dados
-		Connection on =  createConnectionToMySQL();
+		Connection con =  createConnectionToMySQL();
 		
 		// Testar se a conexão é nula 
-		if(con!null) {
+		if(con!=null) {
 			System.out.println("Conexão obtida com sucesso!");
 			con.close();
 		}
