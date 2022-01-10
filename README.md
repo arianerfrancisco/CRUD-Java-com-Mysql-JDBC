@@ -20,3 +20,8 @@ Significa "Sistema de Gerenciamento de Banco de Dados Relacional". Um RDBMS é um
 Enquanto um banco de dados relacional descreve o tipo de banco de dados que um RDMBS gerencia, o RDBMS refere-se ao banco de dados programa em si.
 
 Fonte: https://techlib.wiki/definition/rdbms.html
+
+____________________________________________________
+
+Caso: Estrutura orientada a objetos + banco de dados relacional: quando se trabalha com esses dois paradigmas, precisa-se utilizar a estrutura chamada DAO - objeto de acesso a dados.
+É um padrão para aplicações que utilizam persistencia de dados, onde tem separação das regras de negocio das regras de acesso a banco de dados. Ou seja, cria-se um package separada para as regras de negócio.
