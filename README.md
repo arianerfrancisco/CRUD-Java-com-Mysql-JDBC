@@ -1,21 +1,21 @@
-# CRUD-Java-com-Mysql-JDBC
+### CRUD-Java-com-Mysql-JDBC
  
 Estudos baseado na playlist: https://www.youtube.com/watch?v=-2Qgpe7T5tc&list=PLXbKgo5jPQE-noZ7oj9AlQsSXAsRShSVl
 
 Canal: 
 Cursos Kane Chan
 ______________________
-JDBC
+## JDBC
 
-JDBC significa Javaô EE Database Connectivity. No desenvolvimento Java EE, esta È uma tecnologia bem conhecida e comumente utilizada para a implementaÁ„o da interaÁ„o do banco de dados. JDBC È uma API de nÌvel de chamada, o que significa que as instruÁıes SQL s„o transmitidas como sequÍncias para a API que, ent„o, se encarrega de execut·-las no RDMS. Consequentemente, o valor dessas sequÍncias pode ser alterado no tempo de execuÁ„o, tornando o JDBC din‚mico.
+JDBC significa Java‚Ñ¢ EE Database Connectivity. No desenvolvimento Java EE, esta √© uma tecnologia bem conhecida e comumente utilizada para a implementa√ß√£o da intera√ß√£o do banco de dados. JDBC √© uma API de n√≠vel de chamada, o que significa que as instru√ß√µes SQL s√£o transmitidas como sequ√™ncias para a API que, ent√£o, se encarrega de execut√°-las no RDMS. Consequentemente, o valor dessas sequ√™ncias pode ser alterado no tempo de execu√ß√£o, tornando o JDBC din√¢mico.
 
-Embora os programas JDBC sejam executados mais lentamente do que seus equivalentes SQLJ, uma vantagem dessa abordagem È um conceito conhecido como Escreva uma vez, chame em qualquer lugar. Isso significa que, como nenhuma interaÁ„o È necess·ria atÈ o tempo de execuÁ„o, um programa JDBC È bastante mÛvel e pode ser levado entre diferentes sistemas, com gastos mÌnimos.
+Embora os programas JDBC sejam executados mais lentamente do que seus equivalentes SQLJ, uma vantagem dessa abordagem √© um conceito conhecido como Escreva uma vez, chame em qualquer lugar. Isso significa que, como nenhuma intera√ß√£o √© necess√°ria at√© o tempo de execu√ß√£o, um programa JDBC √© bastante m√≥vel e pode ser levado entre diferentes sistemas, com gastos m√≠nimos.
 
 Fonte: https://www.ibm.com/docs/pt-br/developer-for-zos/14.1.0?topic=support-what-is-jdbc
 _______________________________
-RDBMS
+## RDBMS
 
-Significa "Sistema de Gerenciamento de Banco de Dados Relacional". Um RDBMS È um DBMS projetado especificamente para bancos de dados relacionais. Portanto, RDBMSes s„o um subconjunto de DBMSes.
+Significa "Sistema de Gerenciamento de Banco de Dados Relacional". Um RDBMS √© um DBMS projetado especificamente para bancos de dados relacionais. Portanto, RDBMSes s√£o um subconjunto de DBMSes.
 
 Enquanto um banco de dados relacional descreve o tipo de banco de dados que um RDMBS gerencia, o RDBMS refere-se ao banco de dados programa em si.
 
@@ -24,4 +24,4 @@ Fonte: https://techlib.wiki/definition/rdbms.html
 ____________________________________________________
 
 Caso: Estrutura orientada a objetos + banco de dados relacional: quando se trabalha com esses dois paradigmas, precisa-se utilizar a estrutura chamada DAO - objeto de acesso a dados.
-… um padr„o para aplicaÁıes que utilizam persistencia de dados, onde tem separaÁ„o das regras de negocio das regras de acesso a banco de dados. Ou seja, cria-se um package separada para as regras de negÛcio.
+√â um padr√£o para aplica√ß√µes que utilizam persistencia de dados, onde tem separa√ß√£o das regras de negocio das regras de acesso a banco de dados. Ou seja, cria-se um package separada para as regras de neg√≥cio.
